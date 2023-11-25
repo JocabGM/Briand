@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!--en tête du site --> 
+<head>
+
+<!--préciser l'encodage utilisé, ensuite le nom et le contenu -->
+<meta charset="UTF-8" name="description" content="Un texte décrivant notre restaurant">
+<title>CONTACT</title>
+<link href="Style.css"rel="stylesheet" >
+
+
+</head>
+
+<body>
+    <header class="Tête"> <!--en tête du corps de la page -->
+        <h1>Nous Contacter</h1> <!--le nom du restaurant (titre très important) -->
+
+        <nav> <!--création d'une balise montrant des éléments de navigations (des liens vers d'autres pages) -->
+            <a href="Index.html" title="Acceuil">Acceuil</a>
+            <a href="Menu.html" title=" voir le Menu">Menu</a>
+            <a href="Contact.html" title="Nous Contacter">Contacts</a>
+        </nav>
+        <img src="../Image/BanniereRestaurant.jpg" alt= "Photo du restaurant Sobino" width="100%" height="394"> <!--insertion d'une image et 'alt'pour indiquer ce que représente la photo -->
+   </header>
+
+   <section class="Corpus"> <!--infos sur la manière de nous contacter -->
+    <h2>Où nous trouver</h2>
+    <p>
+        772 Rue après la vallée de la mort<br/>
+        Carrefour "L'Enfer n'est pas une chambre froide"<br/>
+        BENIN
+    </p>
+    <form> <!--formulaire pour contacter l'entreprise -->
+        <fieldset> <!--légende du formulaire -->
+            <span>Nous envoyer un email</span> 
+        <div>
+            <label for="email">Votre email <sup>*</sup></label><!--champ email -->
+            <input type="email" required id="email" name="email" placeholders="votre@email.fr"> <!--le placeholders pour dire -->
+        </div>
+        <div>
+            <label for="firstname">Votre prénom <sup>*</sup></label>
+            <input type="text" required id="firstname" name="firstname">
+        </div>
+        <div>
+            <label for="message">Votre message <sup>*</sup></label>
+            <textarea required id="message" name="message"></textarea><!--zone de texte -->
+        </div>
+        <button type="submit">ENVOYER</button><!--bouton de type soumettre, on aurait pu mettree aussi supprimer -->
+
+    </fieldset>
+    </form>
+   </section>
+
+<footer class="Pied"> <!--"pied" du corps de la page -->
+    <address> <h4> 772 Rue après la vallée de la mort </h4> </address>
+</footer>
+
+<!--  <button type="bouton" onclick="window.location.href='';">  -->
+
+</body>
+
+
+</html>

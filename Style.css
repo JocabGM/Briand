@@ -1,0 +1,21 @@
+ a {
+    color:green;
+    text-align: right;
+    margin-bottom: 8px;
+    justify-content: space-between;
+    margin-right: 0375px;
+ }
+
+ .Tête {
+    background-color: orange;
+ }
+
+ .Corpus {
+    padding: 10px 15px ;
+    background-color: aquamarine;
+ }
+
+.Pied {
+    padding: 10px  15px;
+    background-color: gray;
+}
